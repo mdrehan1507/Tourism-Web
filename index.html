@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#features">Features</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to Incredible India</h1>
+            <p>Discover the most beautiful places in India and explore its rich culture and heritage.</p>
+            <a href="#destinations" class="button">Explore Destinations</a>
+        </div>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Explore the Beauty of India</h2>
+        <p>Discover the most beautiful places in India and explore its rich culture and heritage.</p>
+    </section>
+
+    <section id="destinations" class="gallery section">
+        <h2>Top Destinations</h2>
+        <div class="gallery-container">
+            <div class="gallery-item" onclick="showInfo('tajmahal')">
+                <img src="taj.jpg" alt="Taj Mahal">
+                <p>Taj Mahal, Agra</p>
+            </div>
+            <div class="gallery-item" onclick="showInfo('kerala')">
+                <img src="back.jpg" alt="Kerala">
+                <p>Backwaters, Kerala</p>
+            </div>
+            <div class="gallery-item" onclick="showInfo('jaipur')">
+                <img src="palace.jpg" alt="Jaipur">
+                <p>Palace of Winds, Jaipur</p>
+            </div>
+        </div>
+        <div id="info-box" class="info-box"></div>
+    </section>
+
+    <section id="features" class="section">
+        <h2>Features</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Heritage Sites</td>
+                    <td>India has 38 UNESCO World Heritage Sites that depict its cultural and natural heritage.</td>
+                </tr>
+                <tr>
+                    <td>Cultural Diversity</td>
+                    <td>Experience a blend of various cultures, languages, and traditions across the country.</td>
+                </tr>
+                <tr>
+                    <td>Festivals</td>
+                    <td>India is known for its vibrant festivals such as Diwali, Holi, and Eid.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Incredible India. All rights reserved.</p>
+    </footer>
+</body>
+</html>
